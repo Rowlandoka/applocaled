@@ -200,6 +200,14 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </ul>
           </li>
           <li class="nav-item">
+            <router-link to="/developer" class="nav-link">
+              <i class="nav-icon fas fa-cogs"></i>
+              <p>
+                Developer
+              </p>
+            </router-link>
+          </li>
+           <li class="nav-item">
             <router-link to="/profile" class="nav-link">
               <i class="nav-icon fas fa-user orange"></i>
               <p>
@@ -233,6 +241,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <div class="content">
       <div class="container-fluid">
         <router-view></router-view>
+
+        <vue-progress-bar></vue-progress-bar>
       </div><!-- /.container-fluid -->
     </div>
     <!-- /.content -->
@@ -243,7 +253,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <footer class="main-footer">
     <!-- To the right -->
     <div class="float-right d-none d-sm-inline">
-      Anything you want
+      With Serve your every Needs.
     </div>
     <!-- Default to the left -->
     <strong>Copyright &copy; 2014-2019 <a href="https://applocale.io">AppLocale.io</a>.</strong> All rights reserved.
